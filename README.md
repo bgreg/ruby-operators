@@ -2,6 +2,7 @@ This is a fork of Anil's nice little site showing ruby operators in flash card f
 
 Paste this into the console:
 
+```
 var jq = document.createElement('script');
 jq.src = "//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js";
 document.getElementsByTagName('head')[0].appendChild(jq);
@@ -14,7 +15,7 @@ $('div.operator_name').hide();
 
 // Click the page header div to show/hide the operators
 $(".page-header").click(function(){$('div.operator_name').toggle();});
-
+```
 
 Now you won't see the names until you click.  
 
